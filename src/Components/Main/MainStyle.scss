@@ -1,0 +1,23 @@
+.parent{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    justify-content: space-around;
+    main{
+        position: relative;
+        top:135px;
+        display: flex;
+        justify-content: center;
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    div{
+        display:flex;
+        grid-gap:35px;
+    }
+}
